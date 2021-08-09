@@ -1,0 +1,6 @@
+<%# The answer.html.erb will display the question you ask your coach as well as his answer.  %>
+
+<p class = you>You: <%= params[:question] %></p>
+<p class = coach>Your coach: <%= @answers %></p>
+
+<%= link_to"Ask a new question", ask_path %>
